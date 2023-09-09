@@ -1,0 +1,8 @@
+
+plot({c1.Customer2Machine, c1.Machine2Customer, c1.state, m1.state},
+      externalWindow=true,
+      fileName="System_res.mat");
+      
+getErrorString();
+
+

@@ -1,0 +1,20 @@
+
+plot({
+p.x,
+p.u,
+p.a,
+ctr.xref,
+ctr.error,
+m.z,
+rmsestream.error,
+rmsestream.mse,
+rmsestream.rmse,
+rmsestream.var,
+rmsestream.stddev
+},
+      externalWindow=true,
+      fileName="System_res.mat");
+      
+getErrorString();
+
+

@@ -1,0 +1,8 @@
+
+plot({trl.u,
+trl.y,
+ctr.x
+},
+externalWindow=true, fileName="System_res.mat");
+getErrorString();
+

@@ -1,0 +1,11 @@
+
+plot({trl.u,
+trl.y,
+ctr.x,
+nwk.u,
+nwk.y,
+mon.y
+},
+externalWindow=true, fileName="System_res.mat");
+getErrorString();
+

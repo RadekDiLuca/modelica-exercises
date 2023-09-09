@@ -1,0 +1,11 @@
+
+
+plot({
+mc.x,
+CmpTime.y,
+CmpTime.z
+}, externalWindow=true, fileName="System_res.mat");
+getErrorString();
+
+
+

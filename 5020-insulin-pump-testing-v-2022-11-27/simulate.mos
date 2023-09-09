@@ -1,0 +1,6 @@
+
+//simulate(System, stopTime=14400);
+
+simulate(System, stopTime=100, method = "rungekutta");
+getErrorString();
+

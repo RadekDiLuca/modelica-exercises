@@ -1,0 +1,15 @@
+
+plot({patient.EndogenInsulin, patient.SugarLevel,
+     patient.InsulinDose, patient.MealDose, m1.y, m2.y, m2.Avg,
+PhyExe.y,
+PhyExe.v,
+PhyExe.r,
+PhyExe.z,
+pump.InsulinDose
+},
+      externalWindow=true,
+      fileName="System_res.mat");
+      
+getErrorString();
+
+

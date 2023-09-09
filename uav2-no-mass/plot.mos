@@ -1,0 +1,35 @@
+
+
+plot({
+drone.x,
+drone.y,
+drone.z,
+drone.Vx,
+drone.Vy,
+drone.Vz,
+m1.distance,
+p.setx,
+p.sety,
+p.setz
+},
+      externalWindow=true,
+      fileName="System_res.mat");
+     
+
+/*
+plot({
+drone.x,
+drone.y,
+drone.z,
+drone.Vx,
+drone.Vy,
+drone.Vz
+},
+      externalWindow=true,
+      fileName="System_res.mat");
+      
+*/
+
+getErrorString();
+
+
